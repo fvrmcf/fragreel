@@ -4,6 +4,14 @@ import fs from 'fs';
 import path from 'path';
 import {defineConfig} from 'vite';
 
+export default defineConfig({
+  base: '/fragreel/',
+  plugins: [react()],
+  define: {
+    'process.env': {},
+  },
+});
+
 export default defineConfig(() => {
   return {
     plugins: [
