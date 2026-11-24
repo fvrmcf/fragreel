@@ -1,0 +1,6 @@
+{
+  "name": "FragReel — CS2 Demo Highlight Studio",
+  "description": "Detect aces, clutches, and multi-kills from Counter-Strike 2 demos and export broadcast-ready highlight video files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
